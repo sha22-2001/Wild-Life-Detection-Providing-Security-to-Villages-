@@ -26,7 +26,6 @@ By optimizing data management and leveraging advanced technologies, this system 
 ## System Architecture
 
 ![System Architecture](![image](https://github.com/user-attachments/assets/7cb0a4c9-7fef-4766-9651-12b06c64cb53)
-)
 
 The above diagram provides a high-level view of how fog computing and intelligent video compression are integrated into the system. Key components include:
 
