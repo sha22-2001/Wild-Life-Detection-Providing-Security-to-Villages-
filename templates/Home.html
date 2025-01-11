@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/icon/wildlife.ico') }}">
+</head>
+<body>
+<lord-icon class="Logo"
+    src="https://cdn.lordicon.com/uamufawi.json"
+    trigger="loop"
+    delau="2000"
+    colors="primary:#c71f16,secondary:#c71f16">
+</lord-icon>
+<lord-icon class="menu_icon"
+    src="https://cdn.lordicon.com/pndvzexs.json"
+    trigger="loop"
+    colors="primary:#ffffff,secondary:#ffffff">
+</lord-icon>
+<nav class="navbar_option">
+    <ul class="option_available">
+        <lord-icon id="video" class="menu_option "
+            src="https://cdn.lordicon.com/smeqxwcv.json"
+            trigger="morph"
+            colors="primary:#ffffff,secondary:#ffffff">
+        </lord-icon>
+        <lord-icon class="menu_option Signal"
+            src="https://cdn.lordicon.com/tclnsjgx.json"
+            trigger="morph"
+            colors="primary:#ffffff,secondary:#ffffff">
+        </lord-icon>
+        <lord-icon class="menu_option data"
+            src="https://cdn.lordicon.com/gqdnbnwt.json"
+            trigger="morph"
+            colors="primary:#ffffff,secondary:#ffffff">
+        </lord-icon>
+        <lord-icon class="menu_option research"
+            src="https://cdn.lordicon.com/wxnxiano.json"
+            trigger="morph"
+            colors="primary:#ffffff,secondary:#ffffff">
+        </lord-icon>
+    </ul>
+</nav>
+<img class="background_image_fit" src="{{ url_for('static', filename='Images/background image.jpg') }}" alt="Another Image">
+
+<div class="content" id="dynamic-content">
+    <div class="video_content" >
+        <img src="{{ url_for('video_feed') }}" style="width: 50%;">
+    </div>
+
+</div>
+
+
+<!-- Include your JavaScript files -->
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+<script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+
+
+</body>
+</html>

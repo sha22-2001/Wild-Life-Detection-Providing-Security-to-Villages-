@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+  font-family: "LEMONMILK";
+  src: url("/static/fonts/LEMONMILK-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "CascadiaCode";
+  src: url("/static/fonts/CascadiaCode.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "XTypewriter";
+  src: url("/static/fonts/XTypewriter-Regular.woff2") format("woff2");
+}
+
+.background_image_fit {
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: -100;
+}
+
+.loginbound {
+    position: fixed;
+    left: 15%;
+    top: 20%;
+    background: rgb(255, 255, 255);
+    width: 20%;
+    height: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    display: inline-grid;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    align-items: baseline;
+    justify-items: center;
+}
+
+h1 {
+    font-family: "LEMONMILK";
+    text-transform: uppercase;
+    align-items: center;
+    font-size: 4vw;
+}
+
+.formstyle{
+    display: grid;
+}
+.box_level{
+    font-size: 22px;
+    font-family: "XTypewriter";
+}
+
+.button_patern{
+    background: #e4e8ee;
+    text-transform: uppercase;
+    font-size: 1.5vw;
+    padding: 5px 2vw;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.formtext{
+    font-family:"CascadiaCode";
+    font-size: larger;
+    padding: 5px 0;
+}

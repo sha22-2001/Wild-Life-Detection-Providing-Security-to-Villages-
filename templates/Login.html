@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/login.css') }}">
+</head>
+<body>
+
+    <img class="background_image_fit" src="{{ url_for('static', filename='Images/LEOPARD.jpg') }}" alt="Another Image">
+    <div class="loginbound">
+        <h1>Login</h1>
+        <form action="login.php" method="POST" class="formstyle">
+            <label for="username" class="formtext">Username:</label>
+            <input type="text" id="username" name="username" required class="box_level">
+
+            <label for="password" style="padding: 20px 0 0 0;" class="formtext">Password:</label>
+            <input type="password" id="password" name="password" required class="box_level">
+        </form>
+        <button type="submit" class="button_patern login" onclick="validateLogin()"  >LogIn</button>
+    </div>
+<script src="{{ url_for('static', filename='js/login.js') }}"></script>
+</body>
+</html>

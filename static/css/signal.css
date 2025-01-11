@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Ketikan_Demo";
+  src: url("/static/fonts/Ketikan_Demo.woff2") format("woff2");
+}
+@font-face {
+  font-family: "LEMONMILK";
+  src: url("/static/fonts/LEMONMILK-Light.woff2") format("woff2");
+}
+
+.heading{
+    margin: 10px 0;
+    text-align: center;
+    width: 100%;
+    background: whitesmoke;
+    font-size: 3vw;
+    text-transform: uppercase;
+    font-family: "LEMONMILK";
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.cam {
+
+    background-color: ghostwhite;
+    width: 30%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin: 1vw 2vw;
+    justify-content: space-between;
+}
+
+.cam1 {
+  background-color: white; /* Background color for the white box */
+  width: 80%; /* Adjust the width as needed */
+  height: 80%; /* Adjust the height as needed */
+  border: 2px solid black; /* Border for the white box */
+  text-align: center;
+}
+
+h1, h2, h3 {
+  margin: 0; /* Remove default margins for the headings */
+}
+
+.video_content_cam{
+    display: contents;
+}

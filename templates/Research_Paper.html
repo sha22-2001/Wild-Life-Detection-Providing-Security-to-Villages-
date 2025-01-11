@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/research.css') }}">
+</head>
+<body>
+<div class="research_content-Shayan">
+    <div class="SHAYAN"></div>
+    <img class="research_SHAYAN" src="{{ url_for('static', filename='Images/researcg_creator_top.png') }}" alt="Another Image">
+    <div class="KARTHEEK"></div>
+    <img class="research_KARTHEEK" src="{{ url_for('static', filename='Images/researcg_creator_bottom.png') }}" alt="Another Image">
+
+
+    <div class="paper_container">
+        <div class="Paper">
+            <iframe src="{{ url_for('static', filename='Research/conference.pdf') }}" width="100%" height="600px" frameborder="0" class="pdfstyle"></iframe>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
