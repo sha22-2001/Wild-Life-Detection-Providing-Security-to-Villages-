@@ -7,13 +7,14 @@ Watch the demonstration of this project on YouTube:
 
 Click the image above or [here](https://www.youtube.com/watch?v=HP0E5seDTeQ) to watch the video.
 
-## Description
+## Project Description
 
-This video demonstrates the key features and functionality of the project. It provides a detailed walkthrough, including:
+This project, **Smart Wildlife Security: Fog-Powered Video Compression for Cloud Efficiency**, addresses the issue of wildlife incursions in rural areas by integrating cutting-edge technologies like fog computing and intelligent video compression. Key features include:
 
-- Overview of the project goals and use case.
-- Step-by-step demonstration of the features.
-- Key highlights and benefits of using the project.
-- Conclusion with future possibilities and improvements.
+- **24/7 Surveillance**: Continuous video recording with selective transmission of relevant segments to the cloud.
+- **Fog Computing**: Processes data closer to the source, minimizing latency and enhancing responsiveness.
+- **Intelligent Compression**: Applies algorithms for smart frame extraction, reducing bandwidth usage and conserving resources.
+- **Detailed Reporting**: Generates real-time PDF reports for monitoring wildlife activities and improving security measures.
+- **Sustainability**: Promotes resource efficiency, aligning with environmentally friendly practices.
 
-Feel free to explore and contribute to this project!
+By optimizing data management and leveraging advanced technologies, this system aims to enhance human-wildlife coexistence and ensure rural safety. For more details, refer to the [full paper](./Smart_Wildlife_Security.pdf).
