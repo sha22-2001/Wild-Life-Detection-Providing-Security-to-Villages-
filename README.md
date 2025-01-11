@@ -2,9 +2,10 @@
 
 ## Video Demonstration
 
-Watch the demonstration of this project below:
+Watch the demonstration of this project on YouTube:  
+[![Video Demonstration](https://img.youtube.com/vi/HP0E5seDTeQ/0.jpg)](https://www.youtube.com/watch?v=HP0E5seDTeQ)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HP0E5seDTeQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Click the image above or [here](https://www.youtube.com/watch?v=HP0E5seDTeQ) to watch the video.
 
 ---
 
